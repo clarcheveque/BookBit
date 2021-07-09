@@ -59,6 +59,26 @@ dbController.getBooks = (req, res, next) => {
 			"smallThumbnail": "http://books.google.com/books/content?id=eQQUDAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
 			"thumbnail": "http://books.google.com/books/content?id=eQQUDAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
 	}
+},
+{
+	"id": "eQQUDAAAQBAJ",
+	"title": "On the Genealogy of Morals",
+	"subtitle": "A Polemic. By Way of Clarification and Supplement to My Last Book Beyond Good and Evil",
+	"authors": [
+			"Friedrich Nietzsche",
+			"Douglas Smith"
+	],
+	"publisher": "Oxford University Press",
+	"publishedDate": "2008-08-14",
+	"description": "Nietzsche examines the history of ethics as a history of cruelty, and raises profoundly disquieting issues. He exposes the central values of the Judaeo-Christian and liberal traditions-- compassion, equality, justice-- as the product of a brutal process of conditioning. This is the most sustained of Nietzsche's later works and offers one of the fullest expressions of his characteristic concerns. The introduction places his ideas within the cultural context of his own time and stresses the relevance of his work for a contemporary audience.",
+	"pageCount": 208,
+	"categories": [
+			"Literary Collections"
+	],
+	"imageLinks": {
+			"smallThumbnail": "http://books.google.com/books/content?id=eQQUDAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+			"thumbnail": "http://books.google.com/books/content?id=eQQUDAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+	}
 }];
 	return next();
 }
