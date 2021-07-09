@@ -8,7 +8,7 @@ const Bookshelf = props => {
   const bookshelfRows = [];
 
   useEffect(() => {
-    fetch('http://localhost:3000/db/books')
+    fetch('http://localhost:3000/db/books/2')
       .then((response) => {
         console.log('made it here');
         return response.json();
